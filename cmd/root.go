@@ -24,12 +24,12 @@ package cmd
 import (
 	"os"
 
-	"github.com/rnakamine/kubectl-aws-sso-auth/internal/version"
+	"github.com/rnakamine/kubectl-aws-sso-login/internal/version"
 	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{
-	Use:          "kubectl-aws-sso-auth",
+	Use:          "kubectl-aws-sso-login",
 	Short:        "kubectl plugin for AWS SSO authentication with EKS",
 	Long:         `kubectl plugin for AWS SSO authentication with EKS`,
 	SilenceUsage: true,

@@ -1,4 +1,4 @@
-module github.com/rnakamine/kubectl-aws-sso-auth
+module github.com/rnakamine/kubectl-aws-sso-login
 
 go 1.24.4
 

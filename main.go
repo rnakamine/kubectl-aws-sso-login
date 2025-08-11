@@ -21,7 +21,7 @@ THE SOFTWARE.
 */
 package main
 
-import "github.com/rnakamine/kubectl-aws-sso-auth/cmd"
+import "github.com/rnakamine/kubectl-aws-sso-login/cmd"
 
 func main() {
 	cmd.Execute()

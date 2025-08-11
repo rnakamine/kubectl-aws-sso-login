@@ -1,1 +1,1 @@
-# kubectl-aws-sso-auth
+# kubectl-aws-sso-login
