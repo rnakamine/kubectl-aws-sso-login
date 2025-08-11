@@ -30,8 +30,8 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:          "kubectl-aws-sso-login",
-	Short:        "kubectl plugin for AWS SSO authentication with EKS",
-	Long:         `kubectl plugin for AWS SSO authentication with EKS`,
+	Short:        "This is a client-go credential (exec) plugin that automates AWS SSO authentication for EKS clusters.",
+	Long:         `This is a client-go credential (exec) plugin that automates AWS SSO authentication for EKS clusters.`,
 	SilenceUsage: true,
 	Version:      version.Version,
 }
