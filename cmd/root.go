@@ -24,7 +24,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/rnakamine/kubectl-aws-sso-login/internal/version"
+	"github.com/rnakamine/kubectl-aws-sso-login/pkg/version"
 	"github.com/spf13/cobra"
 )
 

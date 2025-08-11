@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rnakamine/kubectl-aws-sso-login/internal/aws"
-	"github.com/rnakamine/kubectl-aws-sso-login/internal/kubernetes"
-	"github.com/rnakamine/kubectl-aws-sso-login/internal/sso"
+	"github.com/rnakamine/kubectl-aws-sso-login/pkg/aws"
+	"github.com/rnakamine/kubectl-aws-sso-login/pkg/kubernetes"
+	"github.com/rnakamine/kubectl-aws-sso-login/pkg/sso"
 	"github.com/spf13/cobra"
 )
 
