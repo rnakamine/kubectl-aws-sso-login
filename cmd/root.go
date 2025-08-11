@@ -1,5 +1,4 @@
-The MIT License (MIT)
-
+/*
 Copyright © 2025 Ryo Nakamine <rnakamine8080@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -19,3 +18,27 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+*/
+package cmd
+
+import (
+	"os"
+
+	"github.com/rnakamine/kubectl-aws-sso-auth/internal/version"
+	"github.com/spf13/cobra"
+)
+
+var rootCmd = &cobra.Command{
+	Use:          "kubectl-aws-sso-auth",
+	Short:        "kubectl plugin for AWS SSO authentication with EKS",
+	Long:         `kubectl plugin for AWS SSO authentication with EKS`,
+	SilenceUsage: true,
+	Version:      version.Version,
+}
+
+func Execute() {
+	err := rootCmd.Execute()
+	if err != nil {
+		os.Exit(1)
+	}
+}
