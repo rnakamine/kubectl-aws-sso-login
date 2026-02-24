@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.6](https://github.com/rnakamine/kubectl-aws-sso-login/compare/v0.0.5...v0.0.6) - 2026-02-24
+- fix duplicate entries in CHANGELOG.md by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/15
+
 ## [v0.0.5](https://github.com/rnakamine/kubectl-aws-sso-login/compare/v0.0.4...v0.0.5) - 2026-02-24
 - update versionFile to version.go and restrict ci to Go file changes by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/10
 - sync version.go to current tag v0.0.4 by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/12
