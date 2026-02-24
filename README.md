@@ -19,14 +19,14 @@ Configure your kubeconfig to use this credential plugin:
 1. Run aws eks update-kubeconfig first, then modify the generated configuration:
 
 ```bash
-aws eks update-kubeconfig --name <cluster> --region <region> --profile <profile>
+aws eks update-kubeconfig --name <your-cluster-name> --region <your-region> --profile <your-profile>
 ```
 
 2. Edit `~/.kube/config` manually and change the exec command:
 
 ```yaml
 users:
-- name: arn:aws:eks:region:account:cluster/name
+- name: arn:aws:eks:<your-region>:<your-account>:cluster/<your-cluster-name>
   user:
     exec:
       apiVersion: client.authentication.k8s.io/v1beta1
@@ -34,12 +34,12 @@ users:
       args:
       - get-token
       - --cluster-name
-      - cluster-name
+      - <your-cluster-name>
       - --region
-      - region
+      - <your-region>
       env:
       - name: AWS_PROFILE
-        value: profile-name
+        value: <your-profile>
 ```
 
 ### Running
