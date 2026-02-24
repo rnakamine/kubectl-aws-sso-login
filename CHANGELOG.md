@@ -4,18 +4,8 @@
 - update versionFile to version.go and restrict ci to Go file changes by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/10
 - sync version.go to current tag v0.0.4 by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/12
 
-## [v0.0.5](https://github.com/rnakamine/kubectl-aws-sso-login/compare/v0.0.4...v0.0.5) - 2026-02-24
-- update versionFile to version.go and restrict ci to Go file changes by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/10
-- sync version.go to current tag v0.0.4 by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/12
-
 ## [v0.0.4](https://github.com/rnakamine/kubectl-aws-sso-login/compare/v0.0.3...v0.0.4) - 2026-02-24
 - use PAT for checkout in tagpr to ensure tag push triggers release workflow by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/7
-
-## [v0.0.4](https://github.com/rnakamine/kubectl-aws-sso-login/compare/v0.0.3...v0.0.4) - 2026-02-24
-- use PAT for checkout in tagpr to ensure tag push triggers release workflow by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/7
-
-## [v0.0.3](https://github.com/rnakamine/kubectl-aws-sso-login/compare/v0.0.2...v0.0.3) - 2026-02-24
-- use PAT instead of GITHUB_TOKEN in tagpr to trigger release workflow by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/4
 
 ## [v0.0.3](https://github.com/rnakamine/kubectl-aws-sso-login/compare/v0.0.2...v0.0.3) - 2026-02-24
 - use PAT instead of GITHUB_TOKEN in tagpr to trigger release workflow by @rnakamine in https://github.com/rnakamine/kubectl-aws-sso-login/pull/4
